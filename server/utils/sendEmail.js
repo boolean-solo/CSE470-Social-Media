@@ -11,7 +11,7 @@ const { AUTH_EMAIL, AUTH_PASSWORD, APP_URL } = process.env;
 
 let transporter = nodemailer.createTransport({
   service: "Gmail",
-  host: "smtp.gmail.com",
+  host: ".gmail.com",
   port: 465,
   auth: {
     user: AUTH_EMAIL,
